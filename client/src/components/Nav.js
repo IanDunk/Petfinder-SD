@@ -8,14 +8,13 @@ const Nav = props =>
 
   <div className="container">
     <div className="row">
-      <div className="col-md-4">
+    <div className="col-md-4">
         <div className="panel panel-default">
-         
-          <div className="panel-body">
-            <img src={findPetLogo} alt="dog logo" />
-            <div className="panel-heading">
+          <div className="panel-heading">
             <h3 className="panel-title"> <Link to="FindPet">Find A Pet</Link></h3>
           </div>
+          <div className="panel-body">
+            <img src={findPetLogo} alt="post dog logo" />
           </div>
         </div>
       </div>
