@@ -34,7 +34,7 @@ const Nav = props =>
       <div className="col-md-4">
         <div className="panel panel-default">
           <div className="panel-heading">
-            <h3 className="panel-title"> <Link to="FindPet">Find A Pet</Link></h3>
+            <h3 className="panel-title"> <Link to="FindPet">Pet News</Link></h3>
           </div>
           <div className="panel-body">
             <img src={success} alt="success" />
